@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+
+.sessao_one{
+      margin-top: 40px;
+   }
+
+   .frete{
+    background-color: #068587;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13pt;
+
+   }
+
+   /*descriçao */
+#descricao{
+   width: 86%;
+   margin: 40px auto 0px auto;
+   border-bottom: 2px solid black;
+   border-bottom: 1px solid #00000026;
+
+}
+#descricao > h1{
+   font-size: 22pt;
+   font-weight: 600;
+   font-family: arial;
+   color: #0b8681;  
+}
+
+#descricao > h1 > p{
+   font-family: arial;
+   margin-top: 20px;
+   text-indent: 40pt;
+ 
+}
+
+/* filtro */
+
+
+@media(min-width:991px){
+   #filtro{
+      width: 220px;
+    height: 900px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 40px;
+    border-right: 1px solid #00000030;
+   }
+   #fil_conteiner_inside{
+      display: grid;
+    margin-top: 23px;
+    width: 150px;
+   }
+
+
+   .main_btn {
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      background: black;
+      margin-bottom: 10px;
+      color: #94AF32;
+   
+   }
+
+   .active_filtro{
+      border: none;
+      font-weight: bold;
+      background-color: #068587;
+      margin-bottom: 10px;
+      color: #ffff00;
+   }
+
+footer{
+   margin-top: 120px;
+}
+
+}
+
+
+
+
+   .fil_conteiner > h1{
+      font-size: 16pt;
+      background: #EEEEEE;
+      padding: 5px;
+      font-family: arial;
+      margin-left: -25px;
+   }
+
+/*-------*/
+
+
+
+@media(max-width:990px){
+   #filtro {
+      width: 100%;
+      margin-top: 30px;
+      height: 160px;
+      border-bottom: 1px solid #00000030;
+     
+  }
+  .fil_conteiner{
+   width: 100%;
+
+  }
+
+ #fil_conteiner_inside{
+   display: inline-flex;
+   margin-top: 20px;
+   margin-left: -5px;
+}
+.main_btn{
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   background: black;
+   margin-left: 6px;
+   width: 100%;
+   color: #94AF32;
+ }
+
+ 
+.active_filtro{
+   border: none;
+   font-weight: bold;
+   background-color: #068587;
+   margin-bottom: 10px;
+   color: #ffff00;
+}
+
+footer{
+   margin-top: 120px;
+}
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+   /*------------*/
+
+   @media(min-width:991px){
+      #ajuste{
+         width: 70%;
+      }
+   }
+
+   
+   @media(max-width:990px){
+      #ajuste{
+         width: 100%;
+      }
+   }
+  
+  
+      @media(max-width: 900px){
+         #img_carrosel{
+            width: 95%;
+         }
+      }
+      
+      @media(max-width: 900px){
+         #previos_one{
+            display: none;
+         }
+      }
+      
+   
+
+   #off{
+      background-color: #FF9000;
+      color: white;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-top: 5px;
+      font-size: 10pt;
+      text-transform: uppercase;
+
+      display: block;
+      width: 64px;
+   }
+
+@media(min-width:1050px){
+.sessao_one{
+ margin-left: 300px;
+ margin-top: 90px;
+ height: 1500px;
+}
+}
+
+.sessao_one_conteudo > h1{
+    font-size: 12pt;
+  
+}
+
+.sessao_one_conteudo:hover{
+   cursor: pointer;
+   border: 2px solid #aeadad52;
+   box-shadow: 4px 4px 4px #7e7b7bb0;
+}
+
+
+
+.loader{
+   position: fixed;
+   left: 0px;
+   top: 0px;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background: url('https://acegif.com/wp-content/uploads/loading-33.gif') 50% 50% no-repeat #98959570;
+}

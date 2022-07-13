@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.global_cont{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(2, 2, 2);
+}
+.secundario_cont{
+    display: inline-flex;
+}
+.secundario_cont > h1{
+    color: white;
+    font-size: 30pt;
+    margin-top: 50px;
+}
+
+
+#logo_header{
+    width: 90px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+#opcoes_army{
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    background-color: #242329;
+}
+
+#opcoes_army > div{
+     display: block;
+     width: 25%;
+      margin: auto;
+}
+#opcoes_army > div >ul{
+    display: inline-flex;
+    color: #a3a2ad;
+    font-size: 14pt;
+    list-style: none;
+    margin: auto;
+    
+}
+
+#opcoes_army > div > ul > li{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+#opcoes_army > div > ul > li:hover{
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+}
+
+@media(max-width:900px){
+    #logo_header {
+       margin-left: 0px;
+    }
+}
